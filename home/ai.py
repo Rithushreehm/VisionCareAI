@@ -74,4 +74,7 @@ Return the response exactly in this format:
         max_tokens=500,
     )
 
+    print(response.model)
+    print(response.choices[0].message.content)
+
     return response.choices[0].message.content

@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure--3b-z_bss31#n6n_x*s=l6410wvmx=yvn3=6-qr)cz32v+xv@o
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["visioncartai.onrender.com"]
 
 
 # Application definition
